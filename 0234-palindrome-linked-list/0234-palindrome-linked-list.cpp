@@ -11,7 +11,7 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        if(head == nullptr) return head;
+        if(head == nullptr) return true;
 
         ListNode *slow, *fast, *prev = nullptr, *curr;
         slow = fast = head;
