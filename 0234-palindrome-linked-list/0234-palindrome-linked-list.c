@@ -6,7 +6,7 @@
  * };
  */
 bool isPalindrome(struct ListNode* head) {
-    if(head == NULL) return head;
+    if(head == NULL) return true;
 
     struct ListNode *slow, *fast, *prev = NULL, *curr;
     slow = fast = head;
