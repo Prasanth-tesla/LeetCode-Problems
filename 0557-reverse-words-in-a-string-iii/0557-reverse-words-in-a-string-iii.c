@@ -16,7 +16,6 @@ char* reverseWords(char* s) {
         if(s[right] == ' ') {
             reverse(s, left, right - 1);
             left = right + 1;
-            right++;
         }
         right++;
     }
